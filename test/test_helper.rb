@@ -2,7 +2,6 @@ require 'test/unit'
 require 'rubygems'
 
 require 'yaml'
-#require 'fakeweb'
 
 require File.join(File.dirname(__FILE__), '..', 'lib', 'amazon', 'mws')
 

@@ -9,7 +9,7 @@ require 'hmac'
 require 'hmac-sha2'
 require 'base64'
 require 'builder'
-require "rexml/document"
+require 'rexml/document'
 
 # ROXML - nokogiri and roxml are the only dependencies
 I_KNOW_I_AM_USING_AN_OLD_AND_BUGGY_VERSION_OF_LIBXML2 = true
@@ -30,8 +30,6 @@ module Amazon
   end
 end
 
-
-
 require 'mws/lib/memoizable'
 
 require 'mws/feed_builder'
@@ -39,7 +37,6 @@ require 'mws/feed_enumerations'
 require 'mws/feed'
 require 'mws/report_enumerations'
 require 'mws/report'
-
 
 require 'mws/response'
 require 'mws/feed_submission'
@@ -57,7 +54,6 @@ require 'mws/connection/request_builder'
 require 'mws/authentication'
 require 'mws/authentication/query_string'
 require 'mws/authentication/signature'
-
 
 Amazon::MWS::Base.class_eval do
   include Amazon::MWS::Feed
