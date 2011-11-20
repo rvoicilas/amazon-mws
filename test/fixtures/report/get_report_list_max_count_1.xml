@@ -1,0 +1,16 @@
+<GetReportListResponse>
+  <GetReportListResult>
+    <HasNext>true</HasNext>
+    <NextToken>S7XT8R3v3zAD2s1QD6a1FfWSAy4T9nI6M48r5nOh7ZRnPuYffn88oScNjvaGldA/VJKSbOQqzRCMc2aPKbk8AhKiL4BkHtF3nQDtYajCa94SyoYkkmy7z+7kR78MqE7q7tTS7FiTvWESR/8ASzdo2w==</NextToken>
+    <ReportInfo>
+      <ReportId>8824072544</ReportId>
+      <ReportType>_GET_FLAT_FILE_OPEN_LISTINGS_DATA_</ReportType>
+      <ReportRequestId>2306688989</ReportRequestId>
+      <AvailableDate>2010-12-20 13:00:15 +0200</AvailableDate>
+      <Acknowledged>false</Acknowledged>
+    </ReportInfo>
+  </GetReportListResult>
+  <ResponseMetadata>
+    <RequestId>d1057fe5-7213-4e77-bf16-9dbf0636d375</RequestId>
+  </ResponseMetadata>
+</GetReportListResponse>
