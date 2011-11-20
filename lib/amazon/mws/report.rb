@@ -2,6 +2,7 @@ module Amazon
   module MWS
 
     Dir.glob(File.join(File.dirname(__FILE__), 'reports', '*.rb')).each {|f| require f}
+    Dir.glob(File.join(File.dirname(__FILE__), 'reports', 'response', '*.rb')).each {|f| require f}
 
     module Report
       include Enumerations
